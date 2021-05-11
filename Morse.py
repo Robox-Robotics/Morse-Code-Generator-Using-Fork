@@ -58,8 +58,7 @@ print(Relay_init())
 while True:
     
     morse_value = morse("Hello World")
-  #  convert_morse_to_LED(morse_value)
+    convert_morse_to_LED(morse_value)
     print(morse_value)
-    ##status = myFork.aoSet(0,0)
-   # time.sleep(value_idle)
+    print("Done printing the text")
     time.sleep(1)
